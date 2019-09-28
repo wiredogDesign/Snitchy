@@ -1,0 +1,31 @@
+{
+  "name": "Tom's List",
+  "description": "Some dodgy domains",
+  "denied-remote-domains": [
+  "dmtrk.net",
+  "adobedtm.com",
+  "h-bid.com",
+  "kaptcha.com",
+  "analytics.twitter.com",
+  "quantcount.com",
+  "quantserve.com",
+  "clicky.com",
+  "getclicky.com",
+  "segment.com",
+  "stack-sonar.com",
+  "taboola.com",
+  "tradingview.com",
+  "craftyclicks.co.uk",
+  "adlightning.com",
+  "betrad.com",
+  "advertising.com",
+  "brandmetrics.com",
+  "clarium.io",
+  "criteo.net",
+  "distiltag.com",
+  "evidon.com",
+  "newrelic.com",
+  "fitanalytics.com",
+  "bkrtx.com"
+  ]
+}
