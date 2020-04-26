@@ -38,6 +38,28 @@
 
     {
       "action" : "deny",
+      "process" : "\/Applications\/Microsoft Excel.app\/Contents\/SharedSupport\/Microsoft Error Reporting.app\/Contents\/MacOS\/Microsoft Error Reporting",
+      "remote" : "any"
+    },
+
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
+      "remote-domains" : [
+        "live.com",
+        "microsoft.com",
+        "microsoftonline.com",
+        "msauth.net",
+        "msedge.net",
+        "oaspapps.com",
+        "office.com",
+        "office.net",
+        "windows.net"
+      ]
+    },
+
+    {
+      "action" : "deny",
       "remote-domains" : [
         "dmtrk.net",
         "adobedtm.com",
