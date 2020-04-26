@@ -1,6 +1,6 @@
 {
   "name" : "Tom's List",
-  "description" : "Specific apps and some ad domains domains",
+  "description" : "Specific apps and some ad domains",
   "rules" : [
     {
       "action" : "deny",
