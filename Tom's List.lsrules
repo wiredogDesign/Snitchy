@@ -16,6 +16,28 @@
 
     {
       "action" : "deny",
+      "process" : "\/Applications\/Maps.app\/Contents\/MacOS\/Maps",
+      "remote-domains" : "facebook.com"
+    },
+
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
+      "remote-domains" : "cityofglacol.ac.uk"
+    },
+
+    {
+      "action" : "deny",
+      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft Update Assistant.app\/Contents\/MacOS\/Microsoft Update Assistant",
+      "remote-domains" : [
+        "akamaized.net",
+        "azurewebsites.net",
+        "microsoft.com"
+      ]
+    },
+
+    {
+      "action" : "deny",
       "remote-domains" : [
         "dmtrk.net",
         "adobedtm.com",
