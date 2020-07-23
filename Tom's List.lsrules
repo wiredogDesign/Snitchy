@@ -64,6 +64,19 @@
         "windows.net"
       ]
     },
+    
+    {
+      "description" : "Disabled < via- > id check",
+      "name" : "Chrome",
+      "rules" : [
+        {
+          "action" : "allow",
+          "process" : "\/Applications\/Google Chrome Canary.app\/Contents\/MacOS\/Google Chrome Canary",
+          "remote-addresses" : "1.1.1.1",
+          "via" : "\/Applications\/Google Chrome Canary.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/80.0.3955.4\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+        }
+      ]
+    },
 
     {
       "action" : "deny",
