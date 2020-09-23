@@ -50,9 +50,7 @@
 
     {
       "action" : "allow",
-      "process" : " [
-        \/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word"
-      ]
+      "process" :  "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
       "remote-domains" : [
         "live.com",
         "microsoft.com",
@@ -69,9 +67,7 @@
     
     {
       "action" : "allow",
-      "process" : " [
-        \/Applications\/Microsoft PowerPoint.app\/Contents\/MacOS\/Microsoft PowerPoint"
-      ]
+      "process" : "\/Applications\/Microsoft PowerPoint.app\/Contents\/MacOS\/Microsoft PowerPoint",
       "remote-domains" : [
         "live.com",
         "microsoft.com",
