@@ -51,7 +51,25 @@
     {
       "action" : "allow",
       "process" : " [
-        \/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
+        \/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word"
+      ]
+      "remote-domains" : [
+        "live.com",
+        "microsoft.com",
+        "microsoftonline.com",
+        "msauth.net",
+        "msedge.net",
+        "oaspapps.com",
+        "office.com",
+        "office365.com",
+        "office.net",
+        "windows.net"
+      ]
+    },
+    
+    {
+      "action" : "allow",
+      "process" : " [
         \/Applications\/Microsoft PowerPoint.app\/Contents\/MacOS\/Microsoft PowerPoint"
       ]
       "remote-domains" : [
