@@ -124,6 +124,18 @@
         "trackonomics.com",
         "skype.com"
       ]
+    },
+    {
+      "description" : "Blocks ports 6698 - 6699",
+      "name" : "Open Port Vox3",
+      "rules" : [
+        {
+          "action" : "deny",
+          "ports" : "6698-6699",
+          "process" : "any",
+          "remote" : "any"
+        }
+      ]
     }
   ]
 }
