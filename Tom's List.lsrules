@@ -4,6 +4,13 @@
   "rules" : [
     {
       "action" : "deny",
+      "ports" : "6698-6699",
+      "process" : "any",
+      "remote" : "any"
+    },
+    
+    {
+      "action" : "deny",
       "process" : "\/Applications\/Utilities\/Adobe Application Manager\/UWA\/AAM Updates Notifier.app\/Contents\/MacOS\/AAM Updates Notifier",
       "remote-domains" : "adobe.com"
     },
@@ -123,19 +130,6 @@
         "justdial.com",
         "trackonomics.com",
         "skype.com"
-      ]
-    },
-    
-    {
-      "description" : "Blocks ports 6698 - 6699",
-      "name" : "Open Port Vox3",
-      "rules" : [
-        {
-          "action" : "deny",
-          "ports" : "6698-6699",
-          "process" : "any",
-          "remote" : "any"
-        }
       ]
     }
   ]
