@@ -52,7 +52,7 @@
     {
       "action" : "deny",
       "process" : "\/System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd",
-      "remote-domains" : "apple.com"
+      "remote" : "any"
      },
      
     {
