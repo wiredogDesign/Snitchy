@@ -10,6 +10,13 @@
     },
     
     {
+      "action" : "allow",
+      "ports" : "any",
+      "process" : "\/usr\/sbin\/mDNSResponder",
+      "remote" : "any"
+    },
+    
+    {
       "action" : "deny",
       "process" : "\/usr\/sbin\/ocspd",
       "remote" : "any"
