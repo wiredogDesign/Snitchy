@@ -17,6 +17,12 @@
     
     {
       "action" : "deny",
+      "process" : "\/usr\/libexec\/keyboardservicesd",
+      "remote" : "any"
+    },
+    
+    {
+      "action" : "deny",
       "process" : "\/Applications\/Utilities\/Adobe Application Manager\/UWA\/AAM Updates Notifier.app\/Contents\/MacOS\/AAM Updates Notifier",
       "remote-domains" : "adobe.com"
     },
