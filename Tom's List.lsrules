@@ -2,6 +2,12 @@
   "name" : "Tom's List",
   "description" : "Specific apps and some ad domains",
   "rules" : [
+  
+    {
+      "action" : "deny",
+      "process" : "\/System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd",
+      "remote" : "any"
+     },
     
     {
       "action" : "deny",
@@ -9,6 +15,12 @@
       "remote" : "any"
     },
     
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/Maps.app\/Contents\/MacOS\/Maps",
+      "remote-domains" : "facebook.com"
+    },
+
     {
       "action" : "deny",
       "process" : "\/Applications\/Utilities\/Adobe Application Manager\/UWA\/AAM Updates Notifier.app\/Contents\/MacOS\/AAM Updates Notifier",
@@ -19,12 +31,6 @@
       "action" : "deny",
       "process" : "\/Applications\/MAMP\/MAMP.app\/Contents\/MacOS\/MAMP",
       "remote-domains" : "mamp.info"
-    },
-
-    {
-      "action" : "deny",
-      "process" : "\/Applications\/Maps.app\/Contents\/MacOS\/Maps",
-      "remote-domains" : "facebook.com"
     },
 
     {
@@ -42,12 +48,6 @@
         "microsoft.com"
       ]
     },
-    
-    {
-      "action" : "deny",
-      "process" : "\/System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd",
-      "remote" : "any"
-     },
      
     {
       "action" : "deny",
