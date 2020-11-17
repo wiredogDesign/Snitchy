@@ -59,16 +59,24 @@
       "action" : "allow",
       "process" :  "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
       "remote-domains" : [
-        "live.com",
-        "microsoft.com",
         "microsoftonline.com",
         "msauth.net",
         "msedge.net",
         "oaspapps.com",
         "office.com",
         "office365.com",
-        "office.net",
         "windows.net"
+      ]
+    },
+    
+    {
+      "action" : "deny",
+      "process" :  "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
+      "remote-domains" : [
+        "live.com",
+        "microsoft.com",
+        "office.net",
+        "skype.com"
       ]
     },
     
@@ -128,8 +136,7 @@
         "theinventory.com",
         "kinja.com",
         "justdial.com",
-        "trackonomics.com",
-        "skype.com"
+        "trackonomics.com"
       ]
     }
   ]
