@@ -35,12 +35,6 @@
 
     {
       "action" : "deny",
-      "process" : "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
-      "remote-domains" : "cityofglacol.ac.uk"
-    },
-
-    {
-      "action" : "deny",
       "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft Update Assistant.app\/Contents\/MacOS\/Microsoft Update Assistant",
       "remote-domains" : [
         "akamaized.net",
@@ -76,7 +70,8 @@
         "live.com",
         "microsoft.com",
         "office.net",
-        "skype.com"
+        "skype.com",
+        "cityofglacol.ac.uk"
       ]
     },
     
@@ -101,7 +96,8 @@
         "live.com",
         "microsoft.com",
         "office.net",
-        "skype.com"
+        "skype.com",
+        "cityofglacol.ac.uk"
       ]
     },
 
@@ -126,7 +122,8 @@
         "live.com",
         "microsoft.com",
         "office.net",
-        "skype.com"
+        "skype.com",
+        "cityofglacol.ac.uk"
       ]
     },
 
