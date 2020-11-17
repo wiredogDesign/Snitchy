@@ -1,173 +1,159 @@
 {
-  "name" : "Tom's List",
-  "description" : "Specific apps and some ad domains",
-  "rules" : [
-  
-    {
-      "action" : "deny",
-      "process" : "\/System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd",
-      "remote" : "any"
-     },
-    
-    {
-      "action" : "deny",
-      "process" : "\/System\/Library\/PrivateFrameworks\/GameCenterFoundation.framework\/Versions\/A\/gamed",
-      "remote" : "any"
-    },
-    
-    {
-      "action" : "deny",
-      "process" : "\/Applications\/Maps.app\/Contents\/MacOS\/Maps",
-      "remote-domains" : "facebook.com"
-    },
-
-    {
-      "action" : "deny",
-      "process" : "\/Applications\/Utilities\/Adobe Application Manager\/UWA\/AAM Updates Notifier.app\/Contents\/MacOS\/AAM Updates Notifier",
-      "remote-domains" : "adobe.com"
-    },
-
-    {
-      "action" : "deny",
-      "process" : "\/Applications\/MAMP\/MAMP.app\/Contents\/MacOS\/MAMP",
-      "remote-domains" : "mamp.info"
-    },
-
-    {
-      "action" : "deny",
-      "process" : "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft Update Assistant.app\/Contents\/MacOS\/Microsoft Update Assistant",
-      "remote-domains" : [
-        "akamaized.net",
-        "azurewebsites.net",
-        "microsoft.com"
-      ]
-    },
-     
-    {
-      "action" : "deny",
-      "process" : "\/Applications\/Microsoft Excel.app\/Contents\/SharedSupport\/Microsoft Error Reporting.app\/Contents\/MacOS\/Microsoft Error Reporting",
-      "remote" : "any"
-    },
-
-    {
-      "action" : "allow",
-      "process" :  "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
-      "remote-domains" : [
-        "microsoftonline.com",
-        "msauth.net",
-        "msedge.net",
-        "oaspapps.com",
-        "office.com",
-        "office365.com",
-        "windows.net"
-      ]
-    },
-    
-    {
-      "action" : "deny",
-      "process" :  "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
-      "remote-domains" : [
-        "live.com",
-        "microsoft.com",
-        "office.net",
-        "skype.com",
-        "cityofglacol.ac.uk"
-      ]
-    },
-    
-    {
-      "action" : "allow",
-      "process" : "\/Applications\/Microsoft PowerPoint.app\/Contents\/MacOS\/Microsoft PowerPoint",
-      "remote-domains" : [
-        "microsoftonline.com",
-        "msauth.net",
-        "msedge.net",
-        "oaspapps.com",
-        "office.com",
-        "office365.com",
-        "windows.net"
-      ]
-    },
-
-    {
-      "action" : "deny",
-      "process" :  "\/Applications\/Microsoft PowerPoint.app\/Contents\/MacOS\/Microsoft PowerPoint",
-      "remote-domains" : [
-        "live.com",
-        "microsoft.com",
-        "office.net",
-        "skype.com",
-        "cityofglacol.ac.uk"
-      ]
-    },
-
-    {
-      "action" : "allow",
-      "process" : "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
-      "remote-domains" : [
-        "microsoftonline.com",
-        "msauth.net",
-        "msedge.net",
-        "oaspapps.com",
-        "office.com",
-        "office365.com",
-        "windows.net"
-      ]
-    },
-
-    {
-      "action" : "deny",
-      "process" :  "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
-      "remote-domains" : [
-        "live.com",
-        "microsoft.com",
-        "office.net",
-        "skype.com",
-        "cityofglacol.ac.uk"
-      ]
-    },
-
-    {
-      "action" : "deny",
-      "remote-domains" : [
-        "dmtrk.net",
-        "adobedtm.com",
-        "h-bid.com",
-        "kaptcha.com",
-        "analytics.twitter.com",
-        "quantcount.com",
-        "quantserve.com",
-        "clicky.com",
-        "getclicky.com",
-        "stack-sonar.com",
-        "taboola.com",
-        "tradingview.com",
-        "craftyclicks.co.uk",
-        "adlightning.com",
-        "betrad.com",
-        "advertising.com",
-        "brandmetrics.com",
-        "clarium.io",
-        "criteo.net",
-        "distiltag.com",
-        "evidon.com",
-        "newrelic.com",
-        "fitanalytics.com",
-        "bkrtx.com",
-        "zdbb.net",
-        "digitalcrab.co.uk",
-        "crwdcntrl.net",
-        "ads.twitter.com",
-        "clickhole.com",
-        "kotaku.com",
-        "kotaku.co.uk",
-        "jalopnik.com",
-        "deadspin.com",
-        "theinventory.com",
-        "kinja.com",
-        "justdial.com",
-        "trackonomics.com"
-      ]
-    }
-  ]
+    "name": "Tom's List",
+    "description": "Specific apps and some ad domains",
+    "rules": [
+        {
+            "action": "deny",
+            "process": "\/System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd",
+            "remote": "any"
+        },
+        {
+            "action": "deny",
+            "process": "\/System\/Library\/PrivateFrameworks\/GameCenterFoundation.framework\/Versions\/A\/gamed",
+            "remote": "any"
+        },
+        {
+            "action": "deny",
+            "process": "\/Applications\/Maps.app\/Contents\/MacOS\/Maps",
+            "remote-domains": "facebook.com"
+        },
+        {
+            "action": "deny",
+            "process": "\/Applications\/Utilities\/Adobe Application Manager\/UWA\/AAM Updates Notifier.app\/Contents\/MacOS\/AAM Updates Notifier",
+            "remote-domains": "adobe.com"
+        },
+        {
+            "action": "deny",
+            "process": "\/Applications\/MAMP\/MAMP.app\/Contents\/MacOS\/MAMP",
+            "remote-domains": "mamp.info"
+        },
+        {
+            "action": "deny",
+            "process": "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft Update Assistant.app\/Contents\/MacOS\/Microsoft Update Assistant",
+            "remote-domains": [
+                "akamaized.net",
+                "azurewebsites.net",
+                "microsoft.com"
+            ]
+        },
+        {
+            "action": "deny",
+            "process": "\/Applications\/Microsoft Excel.app\/Contents\/SharedSupport\/Microsoft Error Reporting.app\/Contents\/MacOS\/Microsoft Error Reporting",
+            "remote": "any"
+        },
+        {
+            "action": "allow",
+            "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
+            "remote-domains": [
+                "microsoftonline.com",
+                "msauth.net",
+                "msedge.net",
+                "oaspapps.com",
+                "office.com",
+                "office365.com",
+                "windows.net"
+            ]
+        },
+        {
+            "action": "deny",
+            "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
+            "remote-domains": [
+                "live.com",
+                "microsoft.com",
+                "office.net",
+                "skype.com",
+                "cityofglacol.ac.uk"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "\/Applications\/Microsoft PowerPoint.app\/Contents\/MacOS\/Microsoft PowerPoint",
+            "remote-domains": [
+                "microsoftonline.com",
+                "msauth.net",
+                "msedge.net",
+                "oaspapps.com",
+                "office.com",
+                "office365.com",
+                "windows.net"
+            ]
+        },
+        {
+            "action": "deny",
+            "process": "\/Applications\/Microsoft PowerPoint.app\/Contents\/MacOS\/Microsoft PowerPoint",
+            "remote-domains": [
+                "live.com",
+                "microsoft.com",
+                "office.net",
+                "skype.com",
+                "cityofglacol.ac.uk"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
+            "remote-domains": [
+                "microsoftonline.com",
+                "msauth.net",
+                "msedge.net",
+                "oaspapps.com",
+                "office.com",
+                "office365.com",
+                "windows.net"
+            ]
+        },
+        {
+            "action": "deny",
+            "process": "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
+            "remote-domains": [
+                "live.com",
+                "microsoft.com",
+                "office.net",
+                "skype.com",
+                "cityofglacol.ac.uk"
+            ]
+        },
+        {
+            "action": "deny",
+            "remote-domains": [
+                "dmtrk.net",
+                "adobedtm.com",
+                "h-bid.com",
+                "kaptcha.com",
+                "analytics.twitter.com",
+                "quantcount.com",
+                "quantserve.com",
+                "clicky.com",
+                "getclicky.com",
+                "stack-sonar.com",
+                "taboola.com",
+                "tradingview.com",
+                "craftyclicks.co.uk",
+                "adlightning.com",
+                "betrad.com",
+                "advertising.com",
+                "brandmetrics.com",
+                "clarium.io",
+                "criteo.net",
+                "distiltag.com",
+                "evidon.com",
+                "newrelic.com",
+                "fitanalytics.com",
+                "bkrtx.com",
+                "zdbb.net",
+                "digitalcrab.co.uk",
+                "crwdcntrl.net",
+                "ads.twitter.com",
+                "clickhole.com",
+                "kotaku.com",
+                "kotaku.co.uk",
+                "jalopnik.com",
+                "deadspin.com",
+                "theinventory.com",
+                "kinja.com",
+                "justdial.com",
+                "trackonomics.com"
+            ]
+        }
+    ]
 }
