@@ -27,15 +27,7 @@
             "process": "\/Applications\/MAMP\/MAMP.app\/Contents\/MacOS\/MAMP",
             "remote-domains": "mamp.info"
         },
-        {
-            "action": "deny",
-            "process": "\/Library\/Application Support\/Microsoft\/MAU2.0\/Microsoft AutoUpdate.app\/Contents\/MacOS\/Microsoft Update Assistant.app\/Contents\/MacOS\/Microsoft Update Assistant",
-            "remote-domains": [
-                "akamaized.net",
-                "azurewebsites.net",
-                "microsoft.com"
-            ]
-        },
+        
         {
             "action": "deny",
             "process": "\/Applications\/Microsoft Excel.app\/Contents\/SharedSupport\/Microsoft Error Reporting.app\/Contents\/MacOS\/Microsoft Error Reporting",
