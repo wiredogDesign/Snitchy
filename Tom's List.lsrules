@@ -61,12 +61,12 @@
         },
         {
             "action": "deny",
-            "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Excel",
+            "process": "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
             "remote": "any"
         },
         {
             "action": "allow",
-            "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Excel",
+            "process": "\/Applications\/Microsoft Excel.app\/Contents\/MacOS\/Microsoft Excel",
             "remote-domains": [
                 "microsoftonline.com",
                 "msauth.net",
@@ -80,12 +80,12 @@
         },
         {
             "action": "deny",
-            "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Powerpoint",
+            "process": "\/Applications\/Microsoft Powerpoint.app\/Contents\/MacOS\/Microsoft Powerpoint",
             "remote": "any"
         },
         {
             "action": "allow",
-            "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Powerpoint",
+            "process": "\/Applications\/Microsoft Powerpoint.app\/Contents\/MacOS\/Microsoft Powerpoint",
             "remote-domains": [
                 "microsoftonline.com",
                 "msauth.net",
