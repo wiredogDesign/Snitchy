@@ -117,7 +117,7 @@
             "action" : "deny",
             "process" : "\/Applications\/Google Chrome Canary.app\/Contents\/MacOS\/Google Chrome Canary",
             "remote" : "any",
-            "via" : "\/Applications\/Google Chrome Canary.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/89.0.4343.0\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+            "via" : "\/Applications\/Google Chrome Canary.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/Current\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
         },
         {
             "action": "deny",
