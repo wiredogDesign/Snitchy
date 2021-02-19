@@ -61,6 +61,44 @@
         },
         {
             "action": "deny",
+            "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Excel",
+            "remote": "any"
+        },
+        {
+            "action": "allow",
+            "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Excel",
+            "remote-domains": [
+                "microsoftonline.com",
+                "msauth.net",
+                "msedge.net",
+                "oaspapps.com",
+                "office.net",
+                "office.com",
+                "office365.com",
+                "windows.net"
+            ]
+        },
+        {
+            "action": "deny",
+            "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Powerpoint",
+            "remote": "any"
+        },
+        {
+            "action": "allow",
+            "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Powerpoint",
+            "remote-domains": [
+                "microsoftonline.com",
+                "msauth.net",
+                "msedge.net",
+                "oaspapps.com",
+                "office.net",
+                "office.com",
+                "office365.com",
+                "windows.net"
+            ]
+        },
+        {
+            "action": "deny",
             "remote-domains": [
                 "dmtrk.net",
                 "adobedtm.com",
