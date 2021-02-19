@@ -80,12 +80,12 @@
         },
         {
             "action": "deny",
-            "process": "\/Applications\/Microsoft Powerpoint.app\/Contents\/MacOS\/Microsoft Powerpoint",
+            "process": "\/Applications\/Microsoft PowerPoint.app\/Contents\/MacOS\/Microsoft PowerPoint",
             "remote": "any"
         },
         {
             "action": "allow",
-            "process": "\/Applications\/Microsoft Powerpoint.app\/Contents\/MacOS\/Microsoft Powerpoint",
+            "process": "\/Applications\/Microsoft PowerPoint.app\/Contents\/MacOS\/Microsoft PowerPoint",
             "remote-domains": [
                 "microsoftonline.com",
                 "msauth.net",
