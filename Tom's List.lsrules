@@ -38,8 +38,7 @@
             "description" : "Stops Chrome updates",
             "action" : "deny",
             "process" : "\/Applications\/Google Chrome Canary.app\/Contents\/MacOS\/Google Chrome Canary",
-            "remote" : "any",
-            "via" : "\/Applications\/Google Chrome Canary.app\/Contents\/Frameworks\/Google Chrome Framework.framework\/Versions\/Current\/Helpers\/Google Chrome Helper.app\/Contents\/MacOS\/Google Chrome Helper"
+            "remote" : "any"
         },
         {
             "action": "deny",
