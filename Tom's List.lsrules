@@ -42,9 +42,24 @@
         },
         {
             "action": "deny",
+            "process": "\/Applications\/OneDrive.app",
+            "remote": "any"
+        }, 
+        {
+            "action": "allow",
+            "process": "\/Applications\/OneDrive.app",
+            "remote-domains": [
+                "msauth.net",
+                "live.com",
+                "live.net",
+                "onedrive.com"
+            ]
+        },
+        {
+            "action": "deny",
             "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
             "remote": "any"
-        },
+        },    
         {
             "action": "allow",
             "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
