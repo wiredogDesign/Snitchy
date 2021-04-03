@@ -52,7 +52,8 @@
                 "msauth.net",
                 "live.com",
                 "live.net",
-                "onedrive.com"
+                "onedrive.com",
+                "skydrive.wns.windows.com"
             ]
         },
         {
