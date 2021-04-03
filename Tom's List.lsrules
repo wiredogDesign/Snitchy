@@ -59,7 +59,10 @@
                 "cdn.hubblecontent.osi.office.net",
                 "office365.com",
                 "windows.net",
-                "docs.live.net"
+                "docs.live.net",
+                "login.live.com",
+                "nexusrules.officeapps.live.com",
+                "sharepointonline.com"
             ]
         },
         {
