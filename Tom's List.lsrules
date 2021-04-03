@@ -60,9 +60,11 @@
                 "office365.com",
                 "windows.net",
                 "docs.live.net",
+                "d.docs.live.net",
                 "login.live.com",
                 "nexusrules.officeapps.live.com",
-                "sharepointonline.com"
+                "sharepointonline.com",
+                "api.onedrive.com"
             ]
         },
         {
