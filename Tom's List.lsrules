@@ -42,24 +42,6 @@
         },
         {
             "action": "deny",
-            "process": "\/Applications\/OneDrive.app",
-            "remote": "any"
-        }, 
-        {
-            "action": "allow",
-            "process": "\/Applications\/OneDrive.app",
-            "remote-domains": [
-                "msauth.net",
-                "microsoft.com",
-                "live.com",
-                "live.net",
-                "onedrive.com",
-                "skydrive.wns.windows.com",
-                "api.onedrive.com"
-            ]
-        },
-        {
-            "action": "deny",
             "process": "\/Applications\/Microsoft Word.app\/Contents\/MacOS\/Microsoft Word",
             "remote": "any"
         },    
@@ -81,8 +63,7 @@
                 "d.docs.live.net",
                 "login.live.com",
                 "nexusrules.officeapps.live.com",
-                "sharepointonline.com",
-                "api.onedrive.com"
+                "sharepointonline.com"
             ]
         },
         {
