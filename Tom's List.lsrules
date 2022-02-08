@@ -24,12 +24,6 @@
         },
         {
             "action": "deny",
-            "process": "\/Applications\/MAMP\/MAMP.app\/Contents\/MacOS\/MAMP",
-            "remote-domains": "mamp.info"
-        },
-        
-        {
-            "action": "deny",
             "process": "\/Applications\/Microsoft Excel.app\/Contents\/SharedSupport\/Microsoft Error Reporting.app\/Contents\/MacOS\/Microsoft Error Reporting",
             "remote": "any"
         },
