@@ -23,11 +23,6 @@
             "remote-domains": "adobe.com"
         },
         {
-            "action": "deny",
-            "process": "\/Applications\/MAMP\/MAMP.app\/Contents\/MacOS\/MAMP",
-            "remote-domains": "mamp.info"
-        },
-        {
             "description" : "Stops Chrome updates",
             "action" : "deny",
             "process" : "\/Users\/tom\/Library\/Google\/GoogleSoftwareUpdate\/GoogleSoftwareUpdate.bundle\/Contents\/Helpers\/GoogleSoftwareUpdateAgent.app\/Contents\/MacOS\/GoogleSoftwareUpdateAgent",
